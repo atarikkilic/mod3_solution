@@ -1,0 +1,98 @@
+body {
+ font-size: 16px;
+ font-family: 'Nunito', sans-serif;
+}
+
+h1{
+  margin-top: -10px;
+  margin-bottom: 30px;
+	text-align: center;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #98FB98;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  line-height: .75;
+}
+
+h3{
+  text-align: center;
+ font-weight: bold;
+}
+
+#chicken{
+  margin: 20px;
+  border: 1px solid ;
+  background-color: #FF6347;
+  }
+  #beef{
+  margin: 20px;
+  border: 1px solid ;
+  background-color: #D8BFD8;
+  }
+  
+
+  #sushi{
+    margin: 20px;
+  border: 1px solid ;
+  background-color: #FFFACD;
+
+  }
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #8A2BE2;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #chicken{
+  width: auto;
+}
+
+#beef{
+  width: auto;
+}
+
+#sushi{
+  width: auto;
+}
+
+
+  }
